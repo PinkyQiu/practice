@@ -1,0 +1,214 @@
+.wrap{
+	width: 1070px;
+	padding: 11px;
+	margin: 30px auto;
+}
+.heading{
+	height: 70px;
+	background-color: #f9f9f9;
+}
+.heading-pic{
+	width: 680px;
+  float: left;
+}
+.heading-pic img{
+	float: left;
+	width: 386px;
+	height: 69px;
+}
+.heading-pic h2{
+	float: left;
+	font-size: 14px;
+	color: #5b5a59;
+	border-left: 1px solid #cccccc;
+	margin: 26px 16px;
+	padding-left: 12px;
+	height: 18px;
+	line-height: 18px;
+}
+.heading-more{
+	float: right;
+	height: 70px;
+	margin-right: 6px;
+}
+.heading-more .learn-more,.heading-more .advise{
+	font-size: 12px;
+	color: #003399;
+	height: 70px;
+	line-height: 70px;
+}
+.heading-more .learn-more{
+	border-right: 1px solid #a899a8;
+	padding-right: 6px;
+}
+.content{
+	width: 1070px;
+}
+.content-title{
+	width: 1070px;
+	height: 38px;
+	background-color: #6191c3;
+}
+.content-list{
+	border-bottom: 1px solid #e0e0e0;
+	width: 1070px;
+}
+.content-title .title-state{
+	font-size: 12px;
+	margin-left: 20px;
+	color: #fff;
+	line-height: 38px;
+}
+.select-set{
+	margin:44px 0 35px 158px;
+	font-size: 0;
+}
+.select-set .letter-number{
+	display: inline-block;
+	width: 230px;
+	height: 32px;
+	font-size: 12px;
+	color: #000;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid #b5b5b5;
+	border-radius: 3px;
+}
+.select-set .letter-number:hover,.select-set .active{
+	display: inline-block;
+	width: 220px;
+	height: 32px;
+	font-size: 12px;
+	color: #fff;
+	line-height: 32px;
+	text-align: center;
+	border: 1px solid #b5b5b5;
+	background-color: #1f67b0;
+}
+.content-list .list-left{
+	width: 644px;
+	float: left;
+	border-left: 1px solid #e0e0e0;
+}
+.content-list .list-right{
+	width: 317px;
+  float: right;
+}
+.form-registration{
+	margin-top: 20px;
+}
+.form-registration .form-left{
+	width: 148px;
+	text-align: right;
+	display: inline-block;
+	font-size: 0px;
+	vertical-align: top;
+	height: 26px;
+	line-height: 26px;
+}
+.form-registration .form-left mark{
+ font-size: 14px;
+ color: red;
+ background-color: transparent;
+ margin-right: 3px;
+}
+.form-registration .form-left span{
+	font-size: 12px;
+}
+.form-right{
+	display: inline-block;
+	margin-left: 6px;
+	width: 470px;
+}
+.form-right .inputtext{
+	width: 440px;
+	height: 26px;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 6px;
+	vertical-align: top;
+	border-radius: 2px;
+	border: 1px solid #ababab;
+} 
+.form-right .inputtext1{
+	width: 279px;
+	height: 26px;
+	font-size: 12px;
+	color: #999999;
+	padding-left: 6px;
+	vertical-align: top;
+	border-radius: 2px;
+	border: 1px solid #ababab;
+} 
+.form-registration .form-right .explain{ 
+	font-size: 12px;
+	color: #999999;
+	margin-top: 6px;
+}
+.form-registration .form-right .explain1{ 
+	font-size: 12px;
+	color: #999999;
+	margin-top: 23px;
+}
+.form-right .emailselect{
+	font-size: 12px;
+	font-weight: bold;
+	color: #555555;
+	width: 134px;
+	height: 26px;
+	padding-left: 4px;
+}
+.form-right .emaila{
+	font-size: 14px;
+	color: #555555;
+	font-weight: bold;
+}
+.form-right .codepic,.form-right .text-left1{
+	float: left;
+}
+.form-right .codepic img{
+ width:122px;
+ height:51px;
+ display: block;
+}
+.form-right .codepic a{
+	font-size: 12px;
+	color: #003399;
+	display: block;
+}
+.form-right .checkbox{
+	width: 12px;
+	height: 12px;
+}
+.form-right .agree{
+	font-size: 12px;
+	color: #999999;
+}
+.form-right .agree a{
+	font-size: 12px;
+	color: #003399;
+} 
+.form-right .submit{
+	width: 118px;
+	height: 37px;
+	background-color: #53ad3f;
+	font-size: 14px;
+	color: #fff;
+	line-height: 37px;
+	text-align: center;
+}
+.list-right img{
+	width: 317px;
+	height: 547px;
+}
+.footer{
+	width: 1070px;
+	text-align: center;
+}
+.footer span{
+	font-size: 12px;
+	color: #999999;
+	height: 48px;
+	line-height: 48px;
+	margin-left: 6px;
+}

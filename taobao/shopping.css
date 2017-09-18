@@ -1,0 +1,271 @@
+/*css reset*/
+body,
+html {
+	height: 100%;
+}
+body {
+	margin: 0;
+	padding: 0;
+	font: 14px "微软雅黑";
+}
+ul ,li{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+a {
+	color: #333;
+	text-decoration: none;
+}
+.clear:after {
+	content: "";
+	display: block;
+	overflow: hidden;
+	clear:both;
+	zoom:1;
+}
+
+/*header*/
+.header{
+	width: 100%;
+	height: 50px;
+	background-color: #33a078;
+}
+.wrap{
+	width: 1100px;
+	margin: 0 auto;
+}
+.header-left{
+	float: left;
+}
+.header-list{
+	height: 50px;
+	line-height: 50px;
+}
+.header-list li{
+	display: inline-block;
+	padding: 0 30px;
+}
+.header-list li a {
+	color: #fff;
+}
+.header-list li:hover {
+	background-color: #fff;
+}
+.header-list li:hover > a {
+	color: #33a078;
+}
+
+.header-right{
+	float: right;
+	height: 50px;
+	line-height: 50px;
+}
+.login-wrap .login a{
+	 background-color: #268260;
+}
+.login-wrap li {
+	display: inline-block;
+}
+.login-wrap li a {
+	color: #fff;
+	padding: 5px 20px;
+s}
+
+.main{
+	width: 1100px;
+	margin: 0 auto;
+	margin-top: 15px;
+	box-shadow: 0px 0px 10px #d3d3d3;
+}
+/*商品分类*/
+.main-wrap{
+	background-color:#fff;
+	width:100%;
+	padding:20px 0px;
+	height:45px;
+	*border:1px solid #F2F2F2;
+}
+.classfiy-item{
+	float:left;
+	width:190px;
+	height:47px;
+	padding-left:35px;
+	padding-right:20px;
+	border-right:1px solid #EDEDED;
+}
+.classfiy-item .item-tips{
+  text-align:center;
+	margin-right:5px;
+	float:left;
+	width:30px;
+	height:40px;
+	color:rgb(51, 160, 120);
+}
+.classfiy-item .item-tips .iconfont{
+	display: block;
+	font-size:20px;
+}
+.classfiy-item ul{
+	width:145px;
+	float:left;
+}
+.classfiy-item ul li{
+	margin:1px 10px;
+	float:left;
+}
+.classfiy-item ul li a{
+	color: #4b4b4b;
+}
+.classfiy-item ul li a:hover{
+	color: #44a584;
+}
+.classfiy-item ul li  .viewmore{
+	color: #d37a5a;
+}
+ .main-wrap .main-classfiy{
+	float: left;
+	margin-left: 20px;
+}
+ .main-wrap .main-classfiy a{
+ 	border-radius:2px;
+	-webkit-border-radius:2px;
+	-moz-border-radius:2px;
+	font-size: 12px;
+  color: #fff;
+  background: #fd7d52;
+  display: block;
+  width:28px;
+	height:32px;
+	padding:8px;
+}
+.main-wrap .main-classfiy a:hover{
+	background: rgb(241,51,0);
+}
+/*商品列表*/
+.main-body{
+	width:100%;
+	padding-top:20px;
+	min-height:700px;
+	margin-top:10px;
+	margin-bottom:20px;
+	position:relative;
+	*border:1px solid #F3F3F3;
+	background-color:#fff;
+}
+/*服饰*/
+.main-body header{
+	height:40px;
+	line-height:40px;
+	width:100%;
+	border-bottom:1px solid #F3F3F3;
+	margin-bottom:10px;
+}
+.main-body header .floor{
+	display:block;
+	float:left;
+	text-align:center;
+	width:40px;
+	height:100%;
+	background-color:#f8541a;
+	color:#fff;
+	font-size:18px;
+	font-family: "Arial";
+	letter-spacing: 4px;
+}
+.main-body header .floor-text{
+	display:block;
+	float:left;
+	text-align:center;
+	width:110px;
+	height:100%;
+	background-color:rgb(254,223,206);
+	color:#333;
+	font-size:16px;
+	font-family: "Arial";
+	letter-spacing: 4px;
+}
+.main-body header a{
+	float: right;
+	color: #f8541a;
+	margin-right: 20px;
+	letter-spacing: 4px;
+}
+.main-body header a:hover{
+color: #33a077;
+}
+/*衣服图片+描述*/
+.item{
+	min-height:500px;
+	margin-bottom:20px;
+	min-height:500px;
+	margin-bottom:20px;
+  display: block;
+}
+.itemlist li{
+	position: relative;
+	padding:3px;
+	width:23%;
+	height:310px;
+	border:1px solid #F0EFEF;
+	margin:6px 5px;
+	float:left;
+	transition:border 0.5s;
+	-webkit-transition:border 0.5s;
+	-moz-transition:border 0.5s;
+}
+.itemlist li:hover{
+	border:1px solid red;
+}
+ .itemlist li img{
+	width:100%;
+}
+.itemlist li h3{
+	font-size:14px;
+	color:#333;
+	font-weight:normal;
+	padding:5px; 
+}
+ .itemlist li h3 a:hover{
+	color:red;
+	text-decoration: underline;
+}
+ .itemlist li p{
+	color:#999;
+	font-size:12px;
+	padding:0px 5px;
+}
+.itemlist li .count{
+	width:100%;
+	height:35px;
+	position:absolute;
+	bottom:0;
+}
+ .itemlist li .price{
+	display:inline-block;
+	*display:inline;
+	float:left;
+	padding:5px;
+	color:#fd4700;
+	font-weight: bold;
+}
+.itemlist li .price em{
+	font-style: normal;
+	font-size:18px;
+}
+.itemlist li .num{
+	float:right;
+	padding:8px 15px;
+	color:#999;
+}
+.itemlist li .num em{
+	padding:0 3px;
+}
+.itemlist li .num a{
+	font-size:18px;
+	padding:0 5px;
+	color:#ccc;
+}
+.itemlist li .num a:hover{
+	color:#FF5A0A;
+}

@@ -1,0 +1,88 @@
+.heading{
+	height: 47px;
+	width: 100%;
+	background-color: #f0f0f0;
+	border-bottom:1px solid  #1190da;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.heading-list{
+	width: 1044px;
+	margin: 0 auto;
+}
+.heading-list .heading-left,
+.heading-list .heading-middle{
+	float: left;
+}
+.heading-list .heading-left{
+	margin-left: 38px;
+	margin-top: 9px;
+}
+.heading-list .heading-left img{
+	width: 148px;
+	height: 28px;
+	vertical-align: middle;
+}
+.heading-list .heading-middle{
+	margin-left: 64px;
+}
+.heading-middle a,.heading-right a{
+	font-size: 16px;
+	color: #333333;
+	height: 48px;
+	line-height: 48px;
+	padding:0 17px;
+	
+}
+.heading-middle .middle-list,
+.heading-right .login{
+	display: inline-block;
+	width: 32px;
+	height: 48px;
+}
+.heading-middle .mico-connet{
+	display: inline-block;
+	width: 60px;
+	height: 48px;
+	background: url(../img/la.ico)no-repeat 70px 20px;
+}
+.heading-middle .my-app{
+	display: inline-block;
+}
+.heading a:hover,
+.heading a.active,
+#micro-connect li:hover,
+#micro-sercice li:hover{
+ background-color: #dddddd;
+}
+.heading-right{
+	float: right;
+}
+.heading-middle .connect-list,
+.heading-middle .sercice-list{
+	display: inline-block;
+	position: relative;
+}
+#micro-connect,#micro-sercice{
+	background-color: #ebebeb;
+	width: 94px;
+	height: 0;
+	position: absolute;
+	font-size: 14px;
+  display: none;
+  opacity: 0;
+  overflow: hidden;
+}
+#micro-connect{
+	top:47px;
+}
+#micro-sercice{
+	top:47px;
+}
+#micro-connect li,#micro-sercice li{
+	line-height: 30px;
+  text-align: center;
+  height: 30px;
+}
