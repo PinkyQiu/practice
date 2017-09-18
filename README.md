@@ -18,13 +18,13 @@ Practice for HTML, CSS, JS
 
 
 
-[1]https://pinkyqiu.github.io/practice/sinaweibo
-[2]https://pinkyqiu.github.io/practice/taobao
-[3]https://pinkyqiu.github.io/practice/uc
-[4]https://pinkyqiu.github.io/practice/wangyiform
-[5]https://pinkyqiu.github.io/practice/muke
-[6]https://pinkyqiu.github.io/practice/canvas-balls
+[1]:https://pinkyqiu.github.io/practice/sinaweibo
+[2]:https://pinkyqiu.github.io/practice/taobao
+[3]:https://pinkyqiu.github.io/practice/uc
+[4]:https://pinkyqiu.github.io/practice/wangyiform
+[5]:https://pinkyqiu.github.io/practice/muke
+[6]:https://pinkyqiu.github.io/practice/canvas-balls
 
-[7]https://pinkyqiu.github.io/practice/css3/shadow
-[8]https://pinkyqiu.github.io/practice/css3/pictrue-wall
-[9]https://pinkyqiu.github.io/practice/css3/ghost
+[7]:https://pinkyqiu.github.io/practice/css3/shadow
+[8]:https://pinkyqiu.github.io/practice/css3/pictrue-wall
+[9]:https://pinkyqiu.github.io/practice/css3/ghost
