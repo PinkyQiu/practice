@@ -2,19 +2,19 @@
 Practice for HTML, CSS, JS
 
 # List
--[sinaweibo][1]
--[taobao][2]
--[uc][3]
--[wangyiform][4]
--[muke][5]
--[canvas-balls][6]
+[sinaweibo][1]  
+[taobao][2]  
+[uc][3]  
+[wangyiform][4]  
+[muke][5]  
+[canvas-balls][6]  
 
 
 
 # CSS3
--[shadow][7]
--[pictrue-wall][8]
--[ghost][9]
+[shadow][7]  
+[pictrue-wall][8]  
+[ghost][9]  
 
 
 
