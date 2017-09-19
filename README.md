@@ -15,6 +15,7 @@ Practice for HTML, CSS, JS
 [shadow][7]  
 [pictrue-wall][8]  
 [ghost][9]  
+[loading][10]  
 
 
 
@@ -28,3 +29,4 @@ Practice for HTML, CSS, JS
 [7]:https://pinkyqiu.github.io/practice/css3/shadow
 [8]:https://pinkyqiu.github.io/practice/css3/pictrue-wall
 [9]:https://pinkyqiu.github.io/practice/css3/ghost
+[10]:https://pinkyqiu.github.io/practice/css3/loading
